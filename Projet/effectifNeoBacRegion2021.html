@@ -21,7 +21,7 @@
           <h3 class="text-center py-3">Menu</h3>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">Accueil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./top10formations.html"
@@ -38,165 +38,44 @@
                 >Effectifs des néo bacheliers admis</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./chomage.html"
+                >Taux de chômage par rapport à l'offre</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-md-9" id="main-content">
           <h3 class="text-center py-3">
-            Effectif total des néo bacheliers par région
+            Effectif total des candidatures des néo bacheliers par région
           </h3>
           <p>
-            Ces deux graphes représentent les effectifs totaux des néo
-            bacheliers par région dans les deux années 2021 et 2022.
+            Ce graphe représente les effectifs totaux des néos bacheliers par
+            type de Bac dans toutes les régions en France en 2021.
           </p>
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./effectifNeoBacRegion2021.html"
+                style="font-size: 20px"
+                >2021</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./effectifNeoBacRegion2022.html"
+                style="font-size: 20px"
+                >2022</a
+              >
+            </li>
+          </ul>
           <div>
             <h4>Année 2021</h4>
-            <svg width="1200" height="500"></svg>
-            <script>
-              fetch("2021/Effectif_total_neo_bac_region.json")
-                .then((response) => response.json())
-                .then((data) => {
-                  var svg = d3.select("svg"),
-                    margin = { top: 60, right: 50, bottom: 40, left: 80 },
-                    width = +svg.attr("width") - margin.left - margin.right,
-                    height = +svg.attr("height") - margin.top - margin.bottom,
-                    g = svg
-                      .append("g")
-                      .attr(
-                        "transform",
-                        "translate(" +
-                          margin.left +
-                          "," +
-                          (margin.top + margin.bottom - 80) +
-                          ")"
-                      );
-
-                  var x0 = d3
-                    .scaleBand()
-                    .rangeRound([0, width])
-                    .paddingInner(0.1);
-
-                  var x1 = d3.scaleBand().padding(0.05);
-
-                  var y = d3.scaleLinear().rangeRound([height, 0]);
-
-                  var color = d3
-                    .scaleOrdinal()
-                    .range(["#98abc5", "#8a89a6", "#7b6888"]);
-
-                  var keys = [
-                    "Effectif total néo bac pro",
-                    "Effectif total des néo bac généraux",
-                    "Effectif total néo bac tech",
-                  ];
-
-                  x0.domain(
-                    data.map(function (d) {
-                      return d["Région de l’établissement"];
-                    })
-                  );
-                  x1.domain(keys).rangeRound([0, x0.bandwidth()]).domain(keys);
-
-                  y.domain([
-                    0,
-                    d3.max(data, function (d) {
-                      return (
-                        d3.max(keys, function (key) {
-                          return d[key];
-                        }) * 1.2
-                      );
-                    }),
-                  ]);
-
-                  g.append("g")
-                    .selectAll("g")
-                    .data(data)
-                    .enter()
-                    .append("g")
-                    .attr("transform", function (d) {
-                      return (
-                        "translate(" +
-                        x0(d["Région de l’établissement"]) +
-                        ",0)"
-                      );
-                    })
-                    .selectAll("rect")
-                    .data(function (d) {
-                      return keys.map(function (key) {
-                        return { key: key, value: d[key] };
-                      });
-                    })
-                    .enter()
-                    .append("rect")
-                    .attr("x", function (d) {
-                      return x1(d.key);
-                    })
-                    .attr("y", function (d) {
-                      return y(d.value);
-                    })
-                    .attr("width", x1.bandwidth())
-                    .attr("height", function (d) {
-                      return height - y(d.value);
-                    })
-                    .attr("fill", function (d) {
-                      return color(d.key);
-                    });
-
-                  g.append("g")
-                    .attr("class", "axis")
-                    .call(d3.axisLeft(y).ticks(null, "s"))
-                    .append("text")
-                    .attr("x", 2)
-                    .attr("y", y(y.ticks().pop()) + 0.5)
-                    .attr("dy", "0.32em")
-                    .attr("fill", "#000")
-                    .attr("font-weight", "bold")
-                    .attr("text-anchor", "start")
-                    .text("");
-
-                  g.append("g")
-                    .attr("class", "axis")
-                    .attr("transform", "translate(0," + height + ")")
-                    .call(d3.axisBottom(x0))
-                    .selectAll("text")
-                    .style("text-anchor", "end")
-                    .attr("transform", "rotate(-30)");
-
-                  var legend = g
-                    .append("g")
-                    .attr("font-family", "sans-serif")
-                    .attr("font-size", 14)
-                    .attr("text-anchor", "end")
-                    .selectAll("g")
-                    .data(keys)
-                    .enter()
-                    .append("g")
-                    .attr("transform", function (d, i) {
-                      return "translate(0," + i * 20 + ")";
-                    });
-
-                  legend
-                    .append("rect")
-                    .attr("x", width - 19)
-                    .attr("width", 19)
-                    .attr("height", 19)
-                    .attr("fill", function (d) {
-                      return color(d);
-                    });
-
-                  legend
-                    .append("text")
-                    .attr("x", width - 24)
-                    .attr("y", 9.5)
-                    .attr("dy", "0.32em")
-                    .text(function (d) {
-                      return d;
-                    });
-                });
-            </script>
-          </div>
-
-          <div>
-            <h4>Année 2022</h4>
             <svg width="1200" height="500"></svg>
             <script>
               fetch("2021/Effectif_total_neo_bac_region.json")
