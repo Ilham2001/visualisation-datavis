@@ -1,0 +1,479 @@
+[
+  {
+    "Région de l’établissement": "Auvergne-Rhône-Alpes",
+    "Effectif total néo bac pro": 99909,
+    "Effectif total des néo bac généraux": 779616,
+    "Effectif total néo bac tech": 219201,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Bourgogne-Franche-Comté",
+    "Effectif total néo bac pro": 25250,
+    "Effectif total des néo bac généraux": 168125,
+    "Effectif total néo bac tech": 47065,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Bretagne",
+    "Effectif total néo bac pro": 40113,
+    "Effectif total des néo bac généraux": 274645,
+    "Effectif total néo bac tech": 82841,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Centre-Val de Loire",
+    "Effectif total néo bac pro": 25675,
+    "Effectif total des néo bac généraux": 146503,
+    "Effectif total néo bac tech": 54728,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Corse",
+    "Effectif total néo bac pro": 1166,
+    "Effectif total des néo bac généraux": 6262,
+    "Effectif total néo bac tech": 2722,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Etranger",
+    "Effectif total néo bac pro": 341,
+    "Effectif total des néo bac généraux": 12273,
+    "Effectif total néo bac tech": 911,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Grand Est",
+    "Effectif total néo bac pro": 55193,
+    "Effectif total des néo bac généraux": 341621,
+    "Effectif total néo bac tech": 111879,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Guadeloupe",
+    "Effectif total néo bac pro": 4217,
+    "Effectif total des néo bac généraux": 13775,
+    "Effectif total néo bac tech": 5302,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Guyane",
+    "Effectif total néo bac pro": 3069,
+    "Effectif total des néo bac généraux": 3854,
+    "Effectif total néo bac tech": 2180,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Hauts-de-France",
+    "Effectif total néo bac pro": 67508,
+    "Effectif total des néo bac généraux": 455350,
+    "Effectif total néo bac tech": 128145,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Ile-de-France",
+    "Effectif total néo bac pro": 243799,
+    "Effectif total des néo bac généraux": 1576579,
+    "Effectif total néo bac tech": 400363,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "La Réunion",
+    "Effectif total néo bac pro": 13125,
+    "Effectif total des néo bac généraux": 35822,
+    "Effectif total néo bac tech": 21063,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Martinique",
+    "Effectif total néo bac pro": 4103,
+    "Effectif total des néo bac généraux": 9467,
+    "Effectif total néo bac tech": 4816,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Mayotte",
+    "Effectif total néo bac pro": 3733,
+    "Effectif total des néo bac généraux": 4526,
+    "Effectif total néo bac tech": 5463,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Normandie",
+    "Effectif total néo bac pro": 31144,
+    "Effectif total des néo bac généraux": 183052,
+    "Effectif total néo bac tech": 61625,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Nouvelle-Aquitaine",
+    "Effectif total néo bac pro": 61151,
+    "Effectif total des néo bac généraux": 426998,
+    "Effectif total néo bac tech": 128014,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Occitanie",
+    "Effectif total néo bac pro": 88396,
+    "Effectif total des néo bac généraux": 535345,
+    "Effectif total néo bac tech": 167845,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Pays de la Loire",
+    "Effectif total néo bac pro": 42626,
+    "Effectif total des néo bac généraux": 305897,
+    "Effectif total néo bac tech": 85692,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Polynésie française",
+    "Effectif total néo bac pro": 2189,
+    "Effectif total des néo bac généraux": 3716,
+    "Effectif total néo bac tech": 3202,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Provence Alpes Côte d'Azur",
+    "Effectif total néo bac pro": 62340,
+    "Effectif total des néo bac généraux": 378124,
+    "Effectif total néo bac tech": 117454,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "Saint-Martin",
+    "Effectif total néo bac pro": 43,
+    "Effectif total des néo bac généraux": 27,
+    "Effectif total néo bac tech": 74,
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "Région de l’établissement": "",
+    "Effectif total néo bac pro": "",
+    "Effectif total des néo bac généraux": "",
+    "Effectif total néo bac tech": "",
+    "": "",
+    "__1": "",
+    "__2": ""
+  }
+]

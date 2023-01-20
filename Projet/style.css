@@ -1,0 +1,8 @@
+#sidebar,
+#main-content {
+  height: auto;
+}
+
+.bar {
+  fill: steelblue;
+}

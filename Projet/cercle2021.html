@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  </head>
+  <body>
+    <div id="vis" />
+    <script>
+      const spec = {
+        $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+        description: "A simple donut chart with embedded data.",
+        data: {
+          values: [
+            { category: "Ile-de-France", value: 104359 },
+            { category: "Bretagne", value: 25515 },
+            { category: "Corse", value: 1407 },
+            { category: "Guadeloupe", value: 3140 },
+            { category: "Martinique", value: 2484 },
+            { category: "Guyane", value: 1576 },
+            { category: "La Réunion", value: 7767 },
+            { category: "Polynésie française", value: 1652 },
+            { category: "Centre-Val de Loire", value: 15280 },
+            { category: "Auvergne-Rhône-Alpes", value: 58299 },
+            { category: "Nouvelle-Aquitaine", value: 37991 },
+            { category: "Occitanie", value: 43058 },
+            { category: "Pays de la Loire", value: 26312 },
+            { category: "Bourgogne-Franche-Comté", value: 16181 },
+            { category: "Hauts-de-France", value: 47997 },
+            { category: "Provence-Alpes-Côte d’Azur", value: 32164 },
+            { category: "Normandie", value: 32164 },
+            { category: "Grand Est", value: 38670 },
+            { category: "Mayotte", value: 1067 },
+            { category: "Etranger", value: 394 },
+            { category: "Saint-Martin", value: 30 },
+          ],
+        },
+        mark: { type: "arc", innerRadius: 50 },
+        encoding: {
+          theta: { field: "value", type: "quantitative" },
+          color: { field: "category", type: "nominal" },
+        },
+        config: {},
+      };
+      vegaEmbed("#vis", spec, { mode: "vega-lite" })
+        .then(console.log)
+        .catch(console.warn);
+    </script>
+  </body>
+</html>
